@@ -1,12 +1,14 @@
 import React from 'react';
 import Typist from 'react-typist';
+import AddMessenger from '../AddMessenger/AddMessenger';
+import FindMe from '../FindMe/FindMe';
+import Particles from '../ParticlesBg/Particle/Particle';
 import './Home.css';
 import Modals from './Modals/Modals';
-import FindMe from '../FindMe/FindMe';
 const Home = () => {
     return (
 
-        <div className="home bg-dark">
+        <div className="home">
             <div className="d-flex justify-content-center align-items-center home-main">
                 <div className='' >
                 
@@ -24,7 +26,8 @@ const Home = () => {
                     <Modals />
                 </div>
             </div>
-
+            <AddMessenger/>
+            <Particles/>
         </div>
     );
 };

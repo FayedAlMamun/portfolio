@@ -11,6 +11,7 @@ import {
 import About from './components/About/About';
 import NoMatch from './components/NoMatch/NoMatch';
 import Blogs from './components/Blogs/Blogs';
+import Contact from './components/Contact/Contact';
 function App() {
   return (
     <Router>
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route path='/blog'>
         <Blogs/>
+        </Route>
+        <Route path='/contact'>
+        <Contact/>
         </Route>
         <Route path='*'>
         <NoMatch/>

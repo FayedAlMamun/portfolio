@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faLinkedinIn, faGithubAlt, faFacebookF } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faLinkedinIn, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
 const FindMe = () => {
     return (
         <div className="d-flex justify-content-center mt-3 ">

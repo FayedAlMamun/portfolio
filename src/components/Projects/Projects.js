@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../About/About';
+import AddMessenger from '../AddMessenger/AddMessenger';
 import './Projects.css';
 const Projects = () => {
     const project = [
@@ -42,7 +43,7 @@ const Projects = () => {
             des: 'A client side application.One can Search for any song.And he/she can see the lyrics of that song',
             tech: 'React,Javascript,Bootstrap',
             github: 'https://github.com/FayedAlMamun/hard-rock',
-            link: 'fayedalmamun.github.io/hard-rock/'
+            link: 'https://fayedalmamun.github.io/hard-rock'
         },
         {
             name: 'Social Buddy',
